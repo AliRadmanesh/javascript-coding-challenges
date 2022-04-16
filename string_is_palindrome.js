@@ -1,5 +1,5 @@
 /*
-  Task: Remove all duplicate items from the given array
+  Task: Check if the given string is palindrome
   Input:
     const firstString = "madam"
     const secondString = "dog"

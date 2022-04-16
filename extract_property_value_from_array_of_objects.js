@@ -1,5 +1,5 @@
 /*
-  Task: Find the factorial of a given number
+  Task: Extract all property values from an array of objects
   Input:
     let input = [
       { name: "John", age: 21, city: "New York" },
