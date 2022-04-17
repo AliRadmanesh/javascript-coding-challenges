@@ -48,3 +48,24 @@ const restructureArray2 = (arr) => {
 
 const output2 = restructureArray2(input);
 console.log(output2);
+
+/*
+  Extra Task: Sort the numbers and alphabets in the final array
+  Input:
+    const input = [2, "b", 4, "d", 3, "a", "c", "e", 5, 1];
+  Output:
+    const output = [1, 2, 3, 4, 5, "a", "b", "c", "d", "e"];
+*/
+const restructureArray3 = (arr) => {
+  let numbersArr = [];
+  let charArr = [];
+
+  numbersArr = arr.filter((item) => typeof item === "number");
+  charArr = arr.filter((item) => typeof item === "string");
+
+  const restructuredArr = [...numbersArr.sort(), ...charArr.sort()];
+  return restructuredArr;
+};
+
+const output3 = restructureArray3(input);
+console.log(output3);
